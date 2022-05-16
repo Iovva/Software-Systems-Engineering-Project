@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="651.0" prefWidth="1035.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.temaproiect.controllers.BossController">
+   <children>
+      <TableView layoutX="603.0" layoutY="107.0" prefHeight="509.0" prefWidth="384.0">
+        <columns>
+          <TableColumn prefWidth="109.0" text="Name" />
+          <TableColumn prefWidth="119.0" text="Time logged in" />
+            <TableColumn prefWidth="155.0" text="Time logged out" />
+        </columns>
+      </TableView>
+      <Text layoutX="403.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Higher-up panel" wrappingWidth="306.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <TableView layoutX="28.0" layoutY="106.0" prefHeight="256.0" prefWidth="500.0">
+        <columns>
+          <TableColumn prefWidth="34.0" text="id" />
+          <TableColumn prefWidth="109.0" text="title" />
+            <TableColumn prefWidth="88.0" text="status" />
+            <TableColumn prefWidth="127.0" text="Time recieved" />
+            <TableColumn prefWidth="141.0" text="Time finished" />
+        </columns>
+      </TableView>
+      <TextField alignment="TOP_LEFT" layoutX="54.0" layoutY="486.0" prefHeight="88.0" prefWidth="200.0" promptText="description" />
+      <Text layoutX="227.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add task " wrappingWidth="102.67578125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <DatePicker layoutX="296.0" layoutY="494.0" />
+      <Text layoutX="241.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tasks">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="741.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employees">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="331.0" layoutY="549.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Assign task" />
+   </children>
+</AnchorPane>
